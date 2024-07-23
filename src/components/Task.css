@@ -1,0 +1,27 @@
+/* Estilos específicos para o componente Task */
+
+.task {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.task.completed .task-label {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-label {
+  flex: 1;
+}
+
+.remove-button {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
